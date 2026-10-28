@@ -1,0 +1,35 @@
+student_id,semester,previous_cgpa,current_cgpa,introduction_to_algorithms_mark,theory_of_computing_mark,computer_networking_mark,linear_algebra_mark,business_communication_mark,computer_networking_lab_mark,algorithm_lab_mark,residence,does_tuition,tuition_hours_per_week,monthly_personal_budget_bdt,financial_condition,scholarship,daily_commute_minutes,daily_study_hours,daily_sleep_hours,attendance_percentage,social_media_entertainment_hours,assignment_submission_rate,previous_failed_courses,lab_practical_performance,class_participation,academic_difficulty,future_cgpa,future_performance_category
+S0031,5,3.66,3.73,57,60,73,61,66,54,72,Mess,Yes,4.2,23763,High,No,0,4.8,5.5,56.1,1.6,59.9,1,59,High,Medium,3.29,Good
+S0032,5,3.59,3.67,56,63,52,65,51,63,54,University Hall,No,0.0,7737,Middle,No,35,4.1,8.2,83.3,3.9,75.2,2,53,Low,Medium,3.66,Excellent
+S0033,5,2.73,3.24,47,45,47,51,54,50,73,Mess,No,0.0,20251,High,No,34,3.4,6.5,63.7,5.5,71.6,1,61,Low,Medium,2.03,At Risk
+S0034,5,3.26,3.79,73,72,70,58,60,63,53,Mess,No,0.0,9046,Middle,No,34,3.5,5.9,70.5,4.4,68.7,0,63,Medium,Low,3.42,Good
+S0035,6,2.59,2.56,39,29,50,31,41,37,18,University Hall,No,0.0,6906,Middle,No,3,1.0,6.7,72.8,1.9,55.9,2,17,Low,High,1.88,At Risk
+S0036,5,4.0,4.0,61,76,51,52,86,67,89,Family Home,No,0.0,5102,Low,No,59,4.8,6.4,85.8,3.0,100,0,85,Medium,Low,4.0,Excellent
+S0037,2,3.15,3.26,30,32,36,37,61,56,62,Mess,No,0.0,4723,Low,No,19,2.7,8.4,68.9,0.2,87.6,1,61,High,Medium,2.53,Average
+S0038,5,2.7,2.91,22,47,50,27,66,42,46,Family Home,No,0.0,29086,High,No,31,2.1,6.3,68.8,4.1,62.3,2,45,High,High,2.77,Average
+S0039,2,3.37,3.7,48,55,52,56,70,49,48,Mess,Yes,5.1,4130,Low,No,25,3.8,7.0,76.4,3.0,40.0,2,43,Medium,Medium,2.78,Average
+S0040,6,3.49,3.55,36,38,66,56,66,54,57,Family Home,No,0.0,9807,Middle,No,71,2.9,8.1,79.8,0.5,97.9,2,59,Medium,Medium,4.0,Excellent
+S0041,5,2.2,2.66,52,35,27,28,52,60,47,Family Home,Yes,5.5,3554,Low,No,65,1.5,6.7,82.1,1.6,80.1,2,55,Medium,High,2.15,At Risk
+S0042,6,3.65,3.95,62,60,73,45,45,75,73,Family Home,No,0.0,15895,High,No,63,4.8,5.1,59.8,3.3,89.3,2,76,Medium,Medium,3.8,Excellent
+S0043,4,2.87,2.88,51,39,47,62,36,69,34,Mess,Yes,5.2,8286,Middle,No,21,2.4,5.1,87.3,4.6,50.4,2,40,Medium,High,2.39,At Risk
+S0044,5,2.99,2.96,37,48,46,53,45,44,29,Mess,No,0.0,3613,Low,No,28,2.8,8.9,73.8,3.6,72.4,2,41,Low,High,2.35,At Risk
+S0045,6,3.73,3.61,60,61,74,54,71,59,57,University Hall,Yes,3.5,5374,Low,Yes,29,3.4,6.5,73.5,0.8,90.1,2,59,Medium,Medium,3.2,Good
+S0046,3,2.73,2.94,44,47,42,44,35,48,58,University Hall,No,0.0,9438,Middle,No,12,2.0,6.2,75.5,3.6,61.2,1,45,Low,Medium,2.77,Average
+S0047,6,2.78,3.1,50,34,66,44,46,38,33,Mess,No,0.0,3458,Low,No,32,2.6,7.4,69.4,2.3,81.2,1,35,Medium,Medium,2.92,Average
+S0048,3,4.0,3.59,57,53,57,41,63,60,39,Family Home,No,0.0,19415,High,Yes,73,2.1,6.9,84.6,4.9,64.5,2,40,High,Medium,3.77,Excellent
+S0049,3,2.89,3.03,66,50,39,46,46,49,50,Mess,Yes,2.5,4427,Low,Yes,7,4.1,6.0,99.6,2.3,47.3,3,50,Medium,High,2.05,At Risk
+S0050,4,3.06,3.06,39,51,37,54,43,43,54,University Hall,Yes,7.8,13268,Middle,No,25,1.8,6.5,65.1,5.4,54.1,3,46,Medium,High,2.26,At Risk
+S0051,2,3.06,3.58,55,61,72,48,77,80,41,University Hall,No,0.0,13826,Middle,No,27,3.9,6.0,67.4,3.0,81.6,0,63,Medium,Low,3.01,Good
+S0052,5,2.77,3.08,44,61,56,44,51,58,50,Mess,No,0.0,9649,Middle,No,31,2.1,7.8,63.8,5.1,92.5,0,55,Low,Low,3.18,Good
+S0053,3,3.72,3.75,49,52,73,70,76,74,66,Mess,No,0.0,11513,Middle,No,32,4.2,7.9,94.2,3.3,99.8,3,71,Medium,High,3.87,Excellent
+S0054,4,2.7,2.6,18,20,46,35,23,34,34,Mess,Yes,14.0,13827,Middle,No,14,2.0,6.4,64.0,2.8,58.2,2,27,Medium,High,1.82,At Risk
+S0055,6,3.62,3.58,62,54,68,32,63,62,60,University Hall,No,0.0,10376,Middle,No,32,3.8,6.5,73.7,1.8,62.7,1,62,Medium,Medium,3.51,Excellent
+S0056,6,3.11,3.39,58,53,36,38,36,73,63,University Hall,No,0.0,23880,High,No,3,3.4,7.9,82.2,3.3,71.0,1,66,Low,Medium,3.4,Good
+S0057,3,3.81,3.29,60,49,44,53,58,57,53,University Hall,No,0.0,16005,High,No,9,3.1,7.4,78.2,3.2,100,2,51,Low,Medium,3.74,Excellent
+S0058,3,3.76,3.54,55,60,67,53,53,57,52,Family Home,No,0.0,11022,Middle,No,14,2.5,7.5,84.8,2.8,72.8,1,59,Medium,Medium,3.3,Good
+S0059,6,2.97,3.38,33,40,45,39,54,63,54,University Hall,Yes,12.7,10305,Middle,Yes,34,4.6,6.0,62.2,4.5,82.9,2,58,Medium,High,2.41,At Risk
+S0060,6,3.75,4.0,72,83,99,76,93,99,94,Family Home,Yes,11.4,16690,High,No,29,6.7,5.6,62.6,1.6,92.1,0,99,High,Low,3.91,Excellent
+S0061,2,2.77,2.94,38,51,38,39,57,54,59,Family Home,No,0.0,6856,Middle,Yes,38,2.7,7.6,77.9,4.4,76.2,0,55,Medium,Medium,2.93,Average
+S0062,2,2.89,3.01,53,39,46,21,54,58,33,University Hall,No,0.0,24349,High,No,26,1.7,8.8,59.9,6.4,74.6,1,41,High,Medium,3.01,Good
+S0063,6,3.46,3.14,49,40,60,56,57,48,56,Mess,No,0.0,8780,Middle,No,19,4.7,5.9,95.8,5.4,72.8,0,53,Low,Low,2.98,Average
+S0064,3,3.58,3.26,60,65,49,61,36,55,47,Mess,No,0.0,6724,Middle,No,12,4.1,6.5,76.9,2.1,47.0,2,64,Medium,High,2.77,Average
