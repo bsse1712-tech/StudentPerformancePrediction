@@ -140,7 +140,10 @@ int load_csv(const char *filename, Student students[], int capacity)
         int value_count = 0;
         char *token;
         Student s;
-        int valid = 1;
+
+int valid = 1;
+
+char error_message[160];
 
         if (line[0] == '\n' || line[0] == '\r' || line[0] == '\0') continue;
 
@@ -164,9 +167,27 @@ int load_csv(const char *filename, Student students[], int capacity)
         }
 
         s.label = class_from_name(values[label_col]);
-        if (s.label < 0) valid = 0;
 
-        if (valid) students[count++] = s;
+if (s.label < 0)
+{
+    valid = 0;
+}
+
+if (valid &&
+    !validate_student(&s,
+                      error_message,
+                      sizeof(error_message)))
+{
+    printf("Skipping invalid record: %s\n",
+           error_message);
+
+    valid = 0;
+}
+
+if (valid)
+{
+    students[count++] = s;
+}
     }
 
     for (i = 0; i < header_count; i++) free(headers[i]);
