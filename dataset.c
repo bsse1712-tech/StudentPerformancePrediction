@@ -3,6 +3,7 @@
 #include <string.h>
 #include <ctype.h>
 #include "student.h"
+#include "validation.h"
 
 const char *feature_names[FEATURE_COUNT] = {
     "previous_cgpa",
