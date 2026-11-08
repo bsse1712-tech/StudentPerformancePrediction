@@ -4,6 +4,8 @@
 #include <string.h>
 #include <time.h>
 #include "student.h"
+#include "preprocessing.h"
+#include "validation.h"
 
 static void print_feature_list(void)
 {
