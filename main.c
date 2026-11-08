@@ -19,6 +19,7 @@ int main(int argc, char *argv[])
 {
     Student data[MAX_STUDENTS], train[MAX_STUDENTS];
     int test_indices[MAX_STUDENTS];
+    FeatureScaler scaler;
     int n, train_n = 0, test_n = 0, i, k = 5;
     double new_x[FEATURE_COUNT];
     char answer;
