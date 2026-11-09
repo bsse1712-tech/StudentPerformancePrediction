@@ -184,11 +184,12 @@ if (valid &&
     valid = 0;
 }
 
-if (valid)
-{
+if (valid) {
     students[count++] = s;
+} else {
+    printf("Record rejected at line %d\n", line_number);
 }
-    }
+
 
     for (i = 0; i < header_count; i++) free(headers[i]);
     fclose(fp);
