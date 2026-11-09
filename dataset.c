@@ -1,3 +1,5 @@
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -156,15 +158,32 @@ char error_message[160];
 
         if (value_count < header_count) continue;
 
-        for (i = 0; i < FEATURE_COUNT; i++) {
-            char *end;
-            double v = strtod(values[feature_col[i]], &end);
-            if (end == values[feature_col[i]] || *end != '\0') {
-                valid = 0;
-                break;
-            }
-            s.x[i] = v;
+       for (i = 0; i < FEATURE_COUNT; i++) {
+
+    if (i == 14) {
+        if (strcmp(values[feature_col[i]], "Low") == 0)
+            s.x[i] = 1;
+        else if (strcmp(values[feature_col[i]], "Medium") == 0)
+            s.x[i] = 2;
+        else if (strcmp(values[feature_col[i]], "High") == 0)
+            s.x[i] = 3;
+        else {
+            valid = 0;
+            break;
         }
+    }
+    else {
+        char *end;
+        double v = strtod(values[feature_col[i]], &end);
+
+        if (end == values[feature_col[i]] || *end != '\0') {
+            valid = 0;
+            break;
+        }
+
+        s.x[i] = v;
+    }
+}
 
         s.label = class_from_name(values[label_col]);
 
@@ -187,11 +206,15 @@ if (valid &&
 if (valid) {
     students[count++] = s;
 } else {
-    printf("Record rejected at line %d\n", line_number);
+    printf("Record rejected. Label = %d\n", s.label);
+    for (i = 0; i < FEATURE_COUNT; i++) {
+        printf("Feature %d = %.2f\n", i, s.x[i]);
+    }
 }
 
+}
 
-    for (i = 0; i < header_count; i++) free(headers[i]);
+for (i = 0; i < header_count; i++) free(headers[i]);
     fclose(fp);
 
     if (count == 0) {
@@ -200,3 +223,6 @@ if (valid) {
     }
     return count;
 }
+
+
+
